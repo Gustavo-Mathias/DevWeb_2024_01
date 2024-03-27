@@ -1,0 +1,15 @@
+Comandos para o git
+
+1- git --version
+2- Para entrar em uma determinada pasta cd pasta
+3- Para sair da pasta cd ..
+4- Para criar um novo arquivo touch nome do arquivo.linguagem da programação
+5- git init
+6- vincular nome git config --global user.name 'Nome'
+7- vincular email git config --global user.email 'Email'
+8- verificar se a ação foi realizada git config --list
+9- git status
+10- git add .
+11- git status
+12- git rm --cached nome do arquivo.linguagem, serve para remover
+13 git commit -m 'mensagem'

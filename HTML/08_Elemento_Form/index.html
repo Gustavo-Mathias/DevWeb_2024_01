@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemento Form</title>
+    <style>
+         
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="background-color: black; color: white;">Exemplo de Formulário</h1>
+    </header>
+    <article>
+        <form action="#">
+            <label for="cNome">Nome:</label>
+            <input type="text" autocomplete="on" size="50" name="tNome" id="cNome" required="required" />
+            <br><br>
+            <label for="cEmail">E-mail</label>
+            <input type="email" name="tEmail" id="cEmail" required="required">
+            <br><br>
+            
+            <p>Deixe o seu comentário</p>
+            <textarea name="message" id="" cols="30" rows="10">Comente:</textarea>
+            <br><br> 
+            
+            <label for="time">Selecione o seu time</label>
+            <select name="time" id="time">
+                <option value="#"></option>
+                <option value="sao_paulo">São Paulo</option>
+                <option value="corinthians">Corinthians</option>
+                <option value="palmeiras">Palmeiras</option>
+                <option value="santos">Santos</option>
+            </select>
+            
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </article>
+    <footer>
+        <small>Instituto da Oportunidade Social</small>
+    </footer>
+</body>
+
+</html>
