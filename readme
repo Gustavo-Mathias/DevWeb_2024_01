@@ -12,4 +12,13 @@ Comandos para o git
 10- git add .
 11- git status
 12- git rm --cached nome do arquivo.linguagem, serve para remover
-13 git commit -m 'mensagem'
+13- git commit -m 'mensagem'
+14- git remote add origin link do repositório
+16- git push -u origin master
+
+/*update*/
+
+1- git add .
+2- git commit -m 'texto'
+3- git push
+4- git pull
