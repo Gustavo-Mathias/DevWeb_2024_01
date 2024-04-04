@@ -36,7 +36,7 @@ ul {
     color: orange;
 }
 
-.bordatracejada{
+#bordatracejada{
     border-width: 3px;
     border-style: inset;
     border-color: #000033;
@@ -51,4 +51,8 @@ footer {
 
 .cor_texto {
     color: #c70000;
+}
+
+*{
+    margin: 20px;
 }

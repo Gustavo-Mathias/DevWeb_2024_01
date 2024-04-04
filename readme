@@ -21,6 +21,7 @@ Comandos para o git
 1- git add .
 2- git commit -m 'texto'
 3- git push
+4- git pull - faz com q baixe as atualizações
 
 /*clone*/
 1- git clone link do repositório
