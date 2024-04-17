@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+body {
+    background-color: orange;
+}
+
+div {
+    padding: 6px;
+    border: 1px solid white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.container {
+    display: flex;
+    align-items: baseline;
+}
+
+.container div {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    flex-shrink: 0;
+}
+
+.container div:nth-child(2) {
+    flex-shrink: 3;
+}
