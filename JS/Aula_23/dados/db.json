@@ -1,0 +1,22 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "fiat",
+      "placa": "FFA-3245",
+      "cor": "Preto"
+    },
+    {
+      "id": 2,
+      "name": "ford",
+      "placa": "Fbc-1555",
+      "cor": "Branco"
+    },
+    {
+      "id": 3,
+      "name": "Chevrolet",
+      "placa": "BCA-1304",
+      "cor": "Vermelho"
+    }
+  ]
+}
